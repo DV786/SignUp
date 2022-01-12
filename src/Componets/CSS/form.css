@@ -13,7 +13,7 @@
   padding: 0.5rem;
 }
 .container {
-  height: 600px;
+  margin: 0%;
 }
 p {
   margin: 0%;
@@ -48,7 +48,7 @@ p {
   border-radius: 2rem;
   text-transform: uppercase;
   font-size: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 .btn-SignUp {
   border: 1px solid #10f286;
