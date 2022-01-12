@@ -46,7 +46,7 @@ const FanSignUp = ({ FanPage }) => {
           </li>
         </ul>
         <div>
-          <Container>
+          <Container className="container">
             <Row>
               <Col>
                 <div>

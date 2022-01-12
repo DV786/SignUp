@@ -12,12 +12,15 @@
   flex-direction: column;
   padding: 0.5rem;
 }
+.container {
+  height: 600px;
+}
 p {
   margin: 0%;
 }
 .Heading {
   color: #808588;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-top: -1rem;
 }
 .Label {
@@ -31,7 +34,6 @@ p {
   color: grey !important;
   padding: 0.4rem;
   margin-left: 0.3rem;
-  margin-bottom: 1rem;
 }
 .Checkbox {
   display: flex;
