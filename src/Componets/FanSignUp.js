@@ -46,12 +46,12 @@ const FanSignUp = ({ FanPage }) => {
           </li>
         </ul>
         <div>
+          <div>
+            <p className="Heading">Create Your Fan Account</p>
+          </div>
           <Container className="container">
             <Row>
               <Col>
-                <div>
-                  <p className="Heading">Create Your Fan Account</p>
-                </div>
                 <Form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
                   <Form.Group className="">
                     <Form.Label className="Label">First Name*</Form.Label>
