@@ -1,0 +1,92 @@
+.form-wrapper {
+  width: 70%;
+  height: 90%;
+  background: #242424;
+  padding: 5px;
+  border-radius: 12px;
+}
+.form-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+p {
+  margin: 0%;
+}
+.Heading {
+  color: #808588;
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+.Label {
+  color: #808588;
+  margin-left: 0.7rem;
+}
+.Input {
+  border: 3px solid #10f286;
+  border-radius: 2rem;
+  background: black !important;
+  color: grey !important;
+  padding: 0.4rem;
+  margin-left: 0.3rem;
+  margin-bottom: 1rem;
+}
+.Checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #10f286;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 4rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.btn-SignUp {
+  border: 1px solid #10f286;
+  background-color: #10f286;
+  color: #121212;
+}
+.nav-link.active {
+  background: #10ff8d !important;
+  border-radius: 3.2rem !important;
+  color: black !important;
+  z-index: 1;
+  margin-right: -1.2rem;
+  margin-left: -1.2rem;
+  padding-left: 2.1rem;
+  padding-right: 2.1rem;
+}
+
+.nav-link {
+  background: black !important;
+  border-radius: 50px !important;
+  color: white !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  z-index: 0;
+}
+
+.nav {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.err {
+  color: rgb(180, 28, 28) !important;
+  padding-left: 15px;
+}
+
+.err-checkbox {
+  color: rgb(180, 28, 28) !important;
+  text-align: center;
+  margin-top: -15px;
+}
