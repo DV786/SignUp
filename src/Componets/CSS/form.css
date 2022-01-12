@@ -20,7 +20,7 @@ p {
 }
 .Heading {
   color: #808588;
-  font-size: 1rem;
+  font-size: 2rem;
   margin-top: -1rem;
 }
 .Label {
@@ -32,7 +32,6 @@ p {
   border-radius: 2rem;
   background: black !important;
   color: grey !important;
-  padding: 0.4rem;
   margin-left: 0.3rem;
 }
 .Checkbox {
