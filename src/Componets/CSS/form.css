@@ -1,38 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
 .form-wrapper {
   width: 70%;
-  height: 90%;
+  height: 95%;
   background: #242424;
   padding: 5px;
   border-radius: 12px;
 }
-.form-Container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0.5rem;
-}
-.container {
-  margin: 0%;
-}
-p {
-  margin: 0%;
 }
 .Heading {
   color: #808588;
-  font-size: 2rem;
-  margin-top: -1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.small {
+  margin: 1rem;
 }
 .Label {
   color: #808588;
+  text-align: left;
+  margin-bottom: 0.1rem;
+  font-size: 1.2rem;
   margin-left: 0.7rem;
 }
+
 .Input {
+  width: 350px;
   border: 3px solid #10f286;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   background: black !important;
   color: grey !important;
-  margin-left: 0.3rem;
+  padding: 0.5rem 1rem;
 }
 .Checkbox {
   display: flex;
@@ -44,11 +51,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 3rem;
   border-radius: 2rem;
   text-transform: uppercase;
   font-size: 1rem;
-  margin-top: 0.2rem;
 }
 .btn-SignUp {
   border: 1px solid #10f286;
@@ -80,14 +86,16 @@ p {
   align-items: center;
   padding-bottom: 35px;
 }
+.check {
+  vertical-align: middle;
+  position: relative;
+  width: 1rem;
+  height: 2rem;
+  padding: 2rem;
+}
 
 .err {
   color: rgb(180, 28, 28) !important;
-  padding-left: 15px;
-}
-
-.err-checkbox {
-  color: rgb(180, 28, 28) !important;
+  margin-left: 0.8rem;
   text-align: center;
-  margin-top: -15px;
 }

@@ -29,7 +29,7 @@ export const FanPage =
         body,
         config
       );
-
+      console.log(result);
       dispatch({
         type: FANSIGNUP_SUCCESS,
         payload: result.data,
