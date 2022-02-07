@@ -23,13 +23,12 @@
   text-align: center;
 }
 .small {
-  margin: 1rem;
+  margin: 0.8rem;
 }
 .Label {
   color: #808588;
   text-align: left;
-  margin-bottom: 0.1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 0.7rem;
 }
 
@@ -39,7 +38,8 @@
   border-radius: 1.5rem;
   background: black !important;
   color: grey !important;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 0.2rem;
 }
 .Checkbox {
   display: flex;
@@ -98,4 +98,5 @@
   color: rgb(180, 28, 28) !important;
   margin-left: 0.8rem;
   text-align: center;
+  font-size: medium;
 }
